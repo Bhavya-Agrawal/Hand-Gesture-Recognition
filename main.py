@@ -1,0 +1,1 @@
+""" Empty file to code hand gesture recognition """
