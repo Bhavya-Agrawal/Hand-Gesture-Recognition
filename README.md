@@ -9,3 +9,6 @@
 6. training (model.fit_generator)
 7. predict (model.predict)
 8. check training/test accuracies
+
+### Steps for setup of dataset
+* Download the ISL dataset from Kaggle [https://www.kaggle.com/datasets/prathumarikeri/indian-sign-language-isl]
