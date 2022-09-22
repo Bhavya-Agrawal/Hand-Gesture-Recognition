@@ -3,7 +3,7 @@ import os
 import time
 
 class_name = input("Enter Class Name : ")
-path = r"C:\Users\parul.chutani\opencv3hrs\Resources\Dataset/%s/" %class_name
+path = "<Enter the path where the dataset to be created>"
 webcam = cv2.VideoCapture(0)
 counter = 0
 
@@ -22,7 +22,7 @@ while True:
         os.mkdir(path)
         filename = class_name + '_' + str(counter) + '.jpg'
         cv2.imwrite(filename, frame)
-        counter += 11
+        counter += 1
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
